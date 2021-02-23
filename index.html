@@ -44,7 +44,7 @@
                         <span class="text-primary">Boyles</span>
                     </h1>
                     <div class="subheading mb-5">
-                        9308 Mainsail Drive · Burke, VA 22015 · (703) 989-5785 ·
+                        Burke, VA 22015 · (703) 989-5785 ·
                         <a href="mailto:jentboyles@gmail.com">jentboyles@gmail.com</a>
                     </div>
                     <p class="lead mb-5">With a passion for the sciences, I apply an analytical mind to discovering the hidden truths of data. My background in biochemistry allows me to analyze problems from both macroscopic and microscopic levels and tackle challenges from multiple points of view. As a former student-athlete, I take pride in cultivating an empathetic team culture while staying mission focused.</p>
@@ -64,34 +64,51 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Predicting Protein Function with Amino Acid Sequence</h3>
                             <div class="subheading mb-3">Recurrent Neural Net Classifier </div>
-                            <p> Though proteins are essential to life, the process of discovering their function and structure is time consuming. Techniques such as x-ray crystallography and functional assays are resource-demanding and low-output compared to the high output of new-age DNA sequencing techniques. Currently, there are several popular tools available to align a novel protein sequence with known, annotated proteins in attempt to extract information about the novel sequence's origin or function. Such tools, such as BLAST, use sequence alignment to determine homology and sequence similarity to these known proteins. As DNA sequence data continues to expeditiously grow, it would be highly beneficial to match pace of protein function and structure identification with sequencing. Using natural language processing techniques, I strove to determine if there was a potential for use of artificial intelligence in rapid protein function identification away from homology or sequence alignment.</p>
+                            <p> Though proteins are essential to life, the process of discovering their function and structure is time consuming. 
+                                Techniques such as x-ray crystallography and functional assays are resource-demanding and low-output compared to the high-output of new-age DNA sequencing techniques.
+                                Currently, there are several popular tools available to align a novel protein sequence with known, annotated proteins in attempt to extract information about the novel sequence's origin or function. 
+                                Such tools, such as BLAST, use sequence alignment to determine homology and sequence similarity to these known proteins. 
+                                As DNA sequence data continues to expeditiously grow, it would be highly beneficial to match pace of protein function and structure identification with sequencing. 
+                                Using natural language processing techniques, I strove to determine if there was a potential for use of artificial intelligence in rapid protein function identification away from homology or sequence alignment.</p>
                             <p class="mb-0">
-                                The final product model had the following neural network architecture: an embedding layer, two convolutional layers for feature extraction, a bidirectional GRU layer to avoid vanishing or exploding gradients, a single hidden layer of 120 nodes, and an output layer with ‘softmax’ activation. The final model scored approximately 90.9% on balanced accuracy score and 94.4% on f1-score. 
+                                The final product model had the following neural network architecture: an embedding layer, two convolutional layers for feature extraction, 
+                                a bidirectional GRU layer to avoid vanishing or exploding gradients, a single hidden layer of 120 nodes, and an output layer with ‘softmax’ activation. 
+                                The final model scored approximately 90.9% on balanced accuracy score and 94.4% on f1-score. 
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><img class = image src="assets/img/circle-science.png" style="margin-left:30px" width="300" height="300"></s></div>
+                        <div class="flex-shrink-0"><img class = image src="assets/img/circle-science.png" style="margin-left:30px;float:right" width="300" height="300"></s></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" style = "margin-top: 100px">Covid-19 Pneumonia, Viral Pneumonia, or Normal?</h3>
                             <div class="subheading mb-3">CNN Chest x-Ray Classifier</div>
-                            <p> At the time this project was created, the world at large was in the midst of the global COVID-19 pandemic. At project release, hospitals, both rural and urban, all over the United States were undergoing extreme stress due to Covid-19 hospitalizations. Our team strove to identify a reliable and rapid way to identify Covid-19 pneumonia, using anterior-posterior and posterior-anterior chest x-rays and artificial intelligence techniques. We focused on the classification of 3 classes of A-P/P-A chest radiography: Covid-19 pneumonia, viral pneumonia, and normal presentation. Harnessing the convolutional neural network (CNN), an artificial intelligence algorithm, we produced a multi-class classification model with high predictive power – scoring approximately 93.5% on both accuracy and recall. </p> 
+                            <p> At the time this project was created, the world at large was in the midst of the global COVID-19 pandemic. 
+                                At project release, hospitals, both rural and urban, all over the United States were undergoing extreme stress due to Covid-19 hospitalizations. 
+                                Our team strove to identify a reliable and rapid way to identify Covid-19 pneumonia, using anterior-posterior and posterior-anterior chest x-rays and artificial intelligence techniques. 
+                                We focused on the classification of 3 classes of A-P/P-A chest radiography: Covid-19 pneumonia, viral pneumonia, and normal presentation. Harnessing the convolutional neural network (CNN), 
+                                an artificial intelligence algorithm, we produced a multi-class classification model with high predictive power – scoring approximately 93.5% on both accuracy and recall. </p> 
                             <p class="mb-0">
-                                The final production model had the following neural network architecture: data augmentation via ImageDataGenerator, a convolutional layer for edge detection/feature extraction, and a single hidden layer of 300 nodes, and an output layer with ‘softmax’ activation. 
+                                The final production model had the following neural network architecture: 
+                                data augmentation via ImageDataGenerator, a convolutional layer for edge detection/feature extraction, and a single hidden layer of 300 nodes, and an output layer with ‘softmax’ activation. 
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><img class = image src="assets/img/circle-x-ray.png" style="margin:100px 0px;margin-left:30px" width="300" height="300"></div>
+                        <div class="flex-shrink-0"><img class = image src="assets/img/circle-x-ray.png" style="margin:100px 0px;margin-left:30px;float:right" width="300" height="300"></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" style = "margin-top: 100px">Predicting Protein Function Using Amino Acid Sequence Classifying Reddit Posts with NLP</h3>
                             <div class="subheading mb-3">r/biology or r/biochemistry?</div>
-                            <p>The basis of learning and scientific discovery has always started with a question; posed by those with the curiosity to gravitate toward a deeper level of understanding. As a student, in the age of the internet, something as simple as the phrasing of a google search can determine if you find the correct resources to answer a query. To the benefit of students and other curios individuals, Reddit is a main-stream forum where professionals and knowledgeable individuals gather to answer questions and discuss forum-related topics. In the field of natural sciences, there are quite a number of different branches of study and for new students or laypersons the specific topics studied by each branch can be a mystery. </p>
+                            <p>The basis of learning and scientific discovery has always started with a question; posed by those with the curiosity to gravitate toward a deeper level of understanding. 
+                                As a student, in the age of the internet, something as simple as the phrasing of a google search can determine if you find the correct resources to answer a query. 
+                                To the benefit of students and other curios individuals, Reddit is a main-stream forum where professionals and knowledgeable individuals gather to answer questions and discuss forum-related topics. 
+                                In the field of natural sciences, there are quite a number of different branches of study and for new students or laypersons the specific topics studied by each branch can be a mystery. </p>
                             <p class="mb-0">
-                                I utilized web scraping, with the help of PushShift’s API, natural language processing techniques and classification algorithms to create a classification model, which helps students or curios persons determine which subreddit, either r/biology or r/biochemistry, is best to post their biology-related question. The final production model had the following attributes: CountVectorization with a curated list of stop words and a MultinomialNB estimator. 
+                                I utilized web scraping, with the help of PushShift’s API, natural language processing techniques and classification algorithms to create a classification model, 
+                                which helps students or curios persons determine which subreddit, either r/biology or r/biochemistry, is best to post their biology-related question. 
+                                The final production model had the following attributes: CountVectorization with a curated list of stop words and a MultinomialNB estimator. 
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><img src="assets/img/reddit.png" style="margin:100px 0px;margin-left:30px" width="300" height="300"></div>
+                        <div class="flex-shrink-0"><img src="assets/img/reddit.png" style="margin:100px 0px;margin-left:30px;float:right" width="300" height="300"></div>
                     </div>
                 </div>
             </section>
@@ -103,13 +120,14 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">General Assembly Data Science Immersive</h3>
-                            <div class="subheading mb-3"></div>
+                            <div class="subheading mb-3">480+ hour Immersive Data Science Program</div>
                             <div></div>
-                            <p> Modeled large and disparate data sets using a variety of machine learning techniques. Acquired and cleaned data from a number of sources, while developing familiarity with real-world applications of data science principles.
+                            <p> Modeled large and disparate data sets using a variety of machine learning techniques. 
+                                Acquired and cleaned data from a number of sources, while developing familiarity with real-world applications of data science principles.
                                 
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2015 - December 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Novemeber 2020 - March 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -118,7 +136,7 @@
                             <div>General Biology, Chemistry </div>
                             <p>GPA: 3.97</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Novemeber 2020 - March 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2015 - December 2018</span></div>
                     </div>
                 </div>
             </section>
@@ -126,17 +144,27 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills - Programming Languages & Tools</h2>
-                    <div class="subheading mb-3"></div>
-                    <ul class="list-inline dev-icons">
-                        <li class='subheading mb-0'> - Python</li>
-                        <li class='subheading mb-0'> - VS Code</li>
-                        <li class='subheading mb-0'> - Databricks</li>
-                        <li class='subheading mb-0'> - Tableau</li>
-                        <li class='subheading mb-0'>- SQL</li>
-                        <li class='subheading mb-0'> - Machine Learning </li>
-                        <li class='subheading mb-0'> - Predictive Analytics</li>
-                        <li class='subheading mb-0'> - Data Visualization</li>
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Libraries</div>
+                    <ul>
+                        <li class='subheading mb-0'>Python</li>
+                        <li class='subheading mb-0'>Pandas</li>
+                        <li class='subheading mb-0'>Sci-Kit Learn</li>
+                        <li class='subheading mb-0'>Numpy</li>
+                        <li class='subheading mb-0'>Tensorflow/Keras</li>
+                        <li class='subheading mb-0'>SQL</li>
+                        <li class='subheading mb-0'>VS Code</li>
+                        <li class='subheading mb-0'>Databricks</li>
+                    </ul>
+                    <div class="subheading mb-3">Data Science & Machine Learning</div>
+                    <ul>
+                        <li class='subheading mb-0'>Tableau</li>
+                        <li class='subheading mb-0'>Neural Networks</li>
+                        <li class='subheading mb-0'>Computer Vision</li>
+                        <li class ='subheading mb-0'>Natural Language Processing</li>
+                        <li class = 'subheading mb-0'>Webscraping</li>
+                        <li class = 'subheading mb-0'>Data Collection & Cleaning</li>
+                        <li class='subheading mb-0'>Data Visualization</li>
                     </ul>
                 </div>
             </section>
@@ -145,8 +173,14 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Outside of data science and the natural sciences, I enjoy a smattering of unique, perhaps uncommonly associated, hobbies. Though my student-athlete glory days have passed, I continue to avidly enjoy weight lifting and running. When the sun is shining and there isn’t to much of a chill in the air, I enjoy hiking - though my fantastically large dislike for insects always makes said relaxing, gorgeous hobby a little more chaotic than what might be considered the norm. </p>
-                    <p class="mb-0">Aside from exercise-based interests, I am also an avid lover of storytelling and role-playing games. I believe stories are the catapult for human connection and understanding, as they let you walk in millions of others’ shoes for a little while. If you can’t find me in the gym, you’ll find me face-first in a story, whether it’s a book, a video game, or at the Dungeons & Dragons table with my friends where we are weaving a story all our own. </p>
+                    <p>Outside of data science and the natural sciences, I enjoy a smattering of unique, perhaps uncommonly associated, hobbies. 
+                        Though my student-athlete glory days have passed, I continue to avidly enjoy weight lifting and running. 
+                        When the sun is shining and there isn’t to much of a chill in the air, I enjoy hiking - 
+                        though my fantastically large dislike for insects always makes said relaxing, gorgeous hobby a little more chaotic than what might be considered the norm. </p>
+                    <p class="mb-0">Aside from exercise-based interests, I am also an avid lover of storytelling and role-playing games. 
+                        I believe stories are the catapult for human connection and understanding, as they let you walk in millions of others’ shoes for a little while. 
+                        If you can’t find me in the gym, you’ll find me face-first in a story, whether it’s a book, a video game,
+                        or at the Dungeons & Dragons table with my friends where we are weaving a story all our own. </p>
                 </div>
             </section>
         </div>
